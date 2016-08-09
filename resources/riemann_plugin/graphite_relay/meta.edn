@@ -1,0 +1,4 @@
+{:plugin "graphite-relay"
+ :title  "A Riemann plugin."
+ :git-repo "https://github.com/mocoloco/graphite-relay"
+ :require graphite-relay.plugin}
