@@ -8,7 +8,6 @@ Implements a Graphite relay using **_consistent-hash_** mechanism
 
 ## Description
 
-
 Returns a function which accepts an event and sends it
 to selected Graphite server using **_consistent-hash_** mechanism.
 For each Graphite server its silently drops events when graphite is down.
@@ -34,7 +33,6 @@ until Graphite service becomes available.
 
 :replicas   Number of replicas per-node in the ring
             Default 8.
-
 
 :dynamic-ring-population   true or false, dynamically updates the consistent-hash ring upon
                            Graphite server failure and recover.
